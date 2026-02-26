@@ -84,7 +84,7 @@ if st.button('🔍 Predict Species'):
         
         try:
             # API Call
-            response = requests.post('https://iris-app-1091239832875.us-east1.run.app/predict', json=data)
+            response = requests.post('https://iris-app-347192942888.us-east1.run.app', json=data)
             
             if response.status_code == 200:
                 prediction = response.json()['prediction']
