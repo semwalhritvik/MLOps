@@ -36,4 +36,6 @@ Edge Case Verification: The importance of testing boundary values (e.g., exactly
 Automation: Realizing how GitHub Actions acts as a "gatekeeper," ensuring that only code passing all tests is considered production-ready.
 --
 
+![alt text](github_action.png)
+
 
