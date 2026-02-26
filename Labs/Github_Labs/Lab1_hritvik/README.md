@@ -1,3 +1,5 @@
+# GitHub Lab 1
+
 This lab demonstrates the implementation of a basic Continuous Integration (CI) pipeline. We transitioned from a standard calculator example to a custom MoodBot utility to practice environment isolation, modular code structure, automated testing, and automated workflows using GitHub Actions.
 
 1. Project Architecture
@@ -32,6 +34,6 @@ Environment Isolation: Using venv ensures that the project remains stable and av
 Import Resolution: Navigating Python's module system by using python -m pytest to correctly resolve src and test paths.
 Edge Case Verification: The importance of testing boundary values (e.g., exactly 50 sanity points) to prevent logic errors.
 Automation: Realizing how GitHub Actions acts as a "gatekeeper," ensuring that only code passing all tests is considered production-ready.
-
+--
 
 
